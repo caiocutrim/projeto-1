@@ -1,0 +1,30 @@
+{
+  "name": "iport",
+  "description": "\"sistema de portifólio\"",
+  "main": "server.js",
+  "authors": [
+    "Paulo Tiba"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "\"site",
+    "node.js",
+    "express.js",
+    "jquery\""
+  ],
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "2.1.4",
+    "bootstrap": "3.3.6"
+  }
+}
+cd
