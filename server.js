@@ -7,6 +7,6 @@ var server;
 
 server = http.createServer(app);
 
-server.listen(3000,function(){
+server.listen(app.get('port'),function(){
     console.log("hello , i'm here on port http://localhost:3000");
 });
