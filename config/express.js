@@ -3,12 +3,12 @@ configurations of the middleware
 **/
 "use strict";
 module.exports =Setup;
-var express = require('express');
-var methodOverride = require('method-override');
-var bodyParser = require('body-parser');
-var load = require('express-load');
-var engine = require('ejs-mate');
-var app;
+const express = require('express');
+const methodOverride = require('method-override');
+const bodyParser = require('body-parser');
+const load = require('express-load');
+const engine = require('ejs-mate');
+let app;
 
 
 function Setup(){
