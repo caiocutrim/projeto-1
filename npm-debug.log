@@ -10,7 +10,7 @@
 6 silly lifecycle iport@0.0.0~prewebserver: no script for prewebserver, continuing
 7 info lifecycle iport@0.0.0~webserver: iport@0.0.0
 8 verbose lifecycle iport@0.0.0~webserver: unsafe-perm in lifecycle true
-9 verbose lifecycle iport@0.0.0~webserver: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/tiba/iport/node_modules/.bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+9 verbose lifecycle iport@0.0.0~webserver: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/tiba/iport/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 10 verbose lifecycle iport@0.0.0~webserver: CWD: /Users/tiba/iport
 11 silly lifecycle iport@0.0.0~webserver: Args: [ '-c', 'node server.js' ]
 12 silly lifecycle iport@0.0.0~webserver: Returned: code: 1  signal: null

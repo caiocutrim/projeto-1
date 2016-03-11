@@ -19,12 +19,7 @@ const engine = require('ejs-mate');
 let app;
 
 
-
 function Setup() {
-  app = express();
-  app.engine('ejs', engine);
-
-function Setup(){
   app = express();
   app.engine('ejs',engine);
 
@@ -37,8 +32,7 @@ function Setup(){
 
     secret: 'my secret',
     resave: false,
-    saveUninitilized: false
-
+    saveUninitilized: false,
     secret:'my secret',
     resave:false,
     saveUninitialized:false
@@ -53,9 +47,7 @@ function Setup(){
   }));
   app.use(methodOverride());
 
-  load('model', {
-      cwd: 'app'
-    })
+
 
   app.use(bodyParser.urlencoded({extended: true}));
   app.use(methodOverride());
