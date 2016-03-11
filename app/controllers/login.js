@@ -18,7 +18,7 @@ function Login() {
   }
 
   controller.login = (req, res) => {
-    res.redirect('/admin/panel');
+
   }
   return controller;
 }
