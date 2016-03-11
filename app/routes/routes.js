@@ -4,7 +4,7 @@ module.exports = Route;
 
 
 function Route(app){
-<<<<<<< HEAD
+
     //function(request, response)
     //route-controllers
     let control = app.controllers.usercontroller;
@@ -18,7 +18,7 @@ function Route(app){
 
     app.post('/create-user '
     ,  passport.authenticate('local'),loginController.login);
-=======
+
   //function(request, response)
   //route-controllers
   let control = app.controllers.usercontroller;
@@ -31,5 +31,5 @@ function Route(app){
   app.get('/create-user', control.getPanelCreateUser);
 
   app.post('/create-user', passport.authenticate('local'), loginController.login);
->>>>>>> 872111e8a6e3525cfa5f27f121947a069f35bfd9
+
 };
