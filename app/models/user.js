@@ -5,7 +5,7 @@ module.exports = UserModel;
 const mongoose = require('mongoose');
 
 const passportLocalMongoose = require('passport-local-mongoose');
-<<<<<<< HEAD
+
 
 function UserModel() {
 
@@ -24,7 +24,7 @@ function UserModel() {
     },
 
   });
-=======
+
 
 function UserModel(){
 
@@ -44,7 +44,7 @@ function UserModel(){
 
   });
 
->>>>>>> 872111e8a6e3525cfa5f27f121947a069f35bfd9
+
   schema.plugin(passportLocalMongoose);
 
   return mongoose.model('User', schema);
