@@ -3,12 +3,12 @@ const passport = require('passport');
 module.exports = Route;
 
 
-function Route(app){
+function Route(app) {
 
   //function(request, response)
   //route-controllers
   let control = app.controllers.usercontroller;
-  let loginController =  app.controllers.login;
+  let loginController = app.controllers.login;
 
   loginController.loginSetup();
 
