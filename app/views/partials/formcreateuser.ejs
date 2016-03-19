@@ -1,16 +1,18 @@
-<form role="create-user">
- <div class="panel-heading">Criar Usuário</div>
+<form id="form-create-user" role="create-user">
+  <!--área do formulário-->
+  <div class="panel-heading">Criar Usuário</div>
   <div class="form-group">
-    <input type="text" name="username" class="form-control " required placeholder="Digite seu Username">
+    <input type="text" id="username" name="username" class="form-control " placeholder="Digite seu Username">
   </div>
   <div class="form-group">
-    <input type="email" name="email" class="form-control" required placeholder="Digite seu email">
+    <input type="email" id="email" name="email" class="form-control" required placeholder="Digite seu email">
   </div>
   <div class="form-group">
-    <input type="password" name="password" class="form-control" required placeholder="Digite sua senha">
+    <input type="password" id="password" name="password" class="form-control" required placeholder="Digite sua senha">
   </div>
+  <!--área do botão-->
   <div class="form-group">
     <a href="/login" class="btn btn-default">login</a>
-    <button type="submit" class="btn btn-primary">Criar Conta</button>
+    <button id="submit"  type="submit" class="btn btn-primary">Criar Conta</button>
   </div>
 </form>
