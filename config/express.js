@@ -26,9 +26,6 @@ function Setup() {
   //usando middlewares incluidos no express
   app.use(require('express-session')({
 
-    secret: 'my secret',
-    resave: false,
-    saveUninitilized: false,
     secret:'my secret',
     resave:false,
     saveUninitialized:false
