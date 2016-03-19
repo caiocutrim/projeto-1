@@ -2,13 +2,9 @@
 *
 * configurations of the middleware
 **/
+
 "use strict";
 module.exports = Setup;
-
-// configurations of the middleware
-
-'use strict';
-module.exports =Setup;
 
 const express = require('express');
 const passport = require('passport');
